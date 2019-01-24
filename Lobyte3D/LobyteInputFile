@@ -1,0 +1,17 @@
+debris flow   Initial type of flow (possibilities are streamflow, debris flow annd turbidity current Note:flow volume concentration is the key distinguishing factor for the three flow types)
+9.8          Gravity acceleration in m/s^2
+1000         Density of the ambient fluid in kg/m^3
+0.25         Median grain diameter of the sediment grains in mm
+2600         Grain density (quarz) in kg/m^3
+0.5          Volumetric sediment concentration of the sediment suspension Note: Cv = Vol_Sedim/Vol_Total 
+0.02         Volumetric sediment concentration threshold (between hyperconcentrations and streamflow/density flow)
+1            Flow velocity threshold (in m/s) to stop transport and commence deposition 
+100          Minumum flow thickness (flow stops and all sediemnt are deposited) in mm
+0.10         Rate of sediment deposition from the flow (proportion of the flow thickness)
+0            Rate of change of the rate of deposition proportion
+10           Concentrate the flow in the direction of max gradient
+no           Hemipelagic deposition (yes or no)
+0.02         Rate of hemipelagic deposition per time step
+2            Number of flow events per iteration
+3 3             Sediment entry point y coord (must be consistent with the number of flow events per iteration, different coordinates can be set for multiple sources)
+70 140          Sediment entry point x coord (must be consistent with the number of flow events per iteration, different coordinates can be set for multiple sources)
